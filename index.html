@@ -3,179 +3,186 @@
 
 <head>
     <title>T-Shirt Shop</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="fontello/css/fontello.css">
-    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fontello/css/fontello.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
-<!--Blue Shirt-->
-    <div class="footer">
-        <i class="description">Save my trees</i>
-        <b class="price">$29</b>
-        <div class="container">
-            <div class="spin"><i class="fa fa-undo" aria-hidden="true"></i></div>
-            <img src="blue-front.png" id="shirt">
-            <ul id="icons">
-                <li class="Refresh"><i class="fa fa-exchange" aria-hidden="true"></i></li>
-                <li class="Heart"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                <li class="Size"><i>XL</i>
-
-                </li>
-                <li class="Color"><div class="the-box" id="pinkbox"></div></li>
-                <li class="Cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li></div>
-                <div class="popup2">
-                    <div class="menu-container2">
-                        <ol>
-                            <li class="colorbox" id="topright"></li>
-                            <li class="colorbox" id="bottomright"></li>
-                        </ol>
-                        <ol>
-                            <li class="colorbox2" id=topleft></li>
-                            <li class="colorbox2" id="bottomleft"></li>
-                        </ol>
-                        <div class="triangle-down2">
+    <div class='mainContainer'>
+        <!--Blue Shirt-->
+        <div class="shirtContainer">
+            <div class="singleShirt">
+                <div class="spin"><i class="fa fa-undo" aria-hidden="true"></i></div>
+                <img src="images/blue-front.png" alt="blueshirt" class="shirt">
+                <div class="icons">
+                    <div class="refresh"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+                    <div class="heart"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                    <div class="size"><i>XL</i>
+                      <div class='mainMenu'>
+                        <div class="sizeMenu">
+                          <ol class="shirtIcons">
+                            <li class="icon-t-shirt"></li>
+                            <li class="icon-t-shirt"></li>
+                            <li class="icon-t-shirt"></li>
+                            <li class="icon-t-shirt"></li>
+                          </ol>
+                          <ol class="shirtSizes">
+                            <li>XL</li>
+                            <li>L</li>
+                            <li>M</li>
+                            <li>S</li>
+                          </ol>
+                            <div class="sizeMenuTriangleDown"></div>
+                            <div class="sizeMenuBG"></div>
+                            <div class="sizeMenuTriangleBG"></div>
                         </div>
                     </div>
-                    <div class="menubg2"></div>
-                    <div class="trianglebg2"></div>
                 </div>
 
-
-                <div class="popup">
-                    <div class="menu-container">
-                        <ol class="shirtsizes">
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                        </ol>
-                        <ol class="shirtsizes2">
+                    <div class="color">
+                        <div class="colorBox bluebox"></div>
+                        <div class="colorMenu">
+                            <div class="colorMenuContainer">
+                                <ol>
+                                    <li class="colorbox topright"></li>
+                                    <li class="colorbox bottomright"></li>
+                                </ol>
+                                <ol>
+                                    <li class="colorbox2 topleft"></li>
+                                    <li class="colorbox2 bottomleft"></li>
+                                </ol>
+                                <div class="colorMenuTriangleDown">
+                                </div>
+                            </div>
+                            <div class="colorMenuBG"></div>
+                            <div class="colorMenuTriangleBG"></div>
+                        </div>
+                    </div>
+                    <div class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <i class="description">Save my trees</i>
+            <b class="price">$29</b>
+        </div>
+        <!-- Pink Shirt-->
+        <!-- <div class="shirtContainer">
+        <div class="singleShirt">
+            <div class="spin"><i class="fa fa-undo" aria-hidden="true"></i></div>
+            <img src="images/pink-front.png" alt="pinkshirt" class="shirt">
+            <ul class="icons">
+                <li class="nav refresh"><i class="fa fa-exchange" aria-hidden="true"></i></li>
+                <li class="nav heart"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li class="nav size"><i>XL</i>
+                  <div class='mainMenu'>
+                    <div class="sizeMenu">
+                        <div class="shirtSizeContainer">
+                            <ol class="shirtIcons">
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                            </ol>
+                            <ol class="shirtSizes">
                                 <li>XL</li>
                                 <li>L</li>
                                 <li>M</li>
                                 <li>S</li>
-                        </ol>
-                    <div class="triangle-down"></div>
+                            </ol>
+                            <div class="sizeMenuTriangleDown"></div>
+                        </div>
+                        <div class="sizeMenuBG"></div>
+                        <div class="sizeMenuTriangleBG"></div>
+                    </div>
                   </div>
-                    <div class="menubg"></div>
-                    <div class="trianglebg"></div>
-                </div>
-          </ul>
-      </div>
+                </li>
 
-<!-- Pink Shirt-->
+                <li class="nav color">
+                    <div class="colorBox pinkbox"></div>
 
-    <div class="footer">
+                    <div class="colorMenu">
+                        <div class="menu-container2">
+                            <ol>
+                                <li class="colorbox topright"></li>
+                                <li class="colorbox bottomright"></li>
+                            </ol>
+                            <ol>
+                                <li class="colorbox2 topleft"></li>
+                                <li class="colorbox2 bottomleft"></li>
+                            </ol>
+                            <div class="triangle-down2">
+                            </div>
+                        </div>
+                        <div class="menubg2"></div>
+                        <div class="trianglebg2"></div>
+                    </div>
+                </li>
+                <li class="nav cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+        </div>
+        </ul>
         <i class="description">Nature Lover</i>
         <b class="price">$19</b>
-        <div class="container">
+    </div> -->
+        <!--Yellow Shirt-->
+        <!-- <div class="shirtContainer">
+        <div class="singleShirt">
             <div class="spin"><i class="fa fa-undo" aria-hidden="true"></i></div>
-            <img src="pink-front.png" id="shirt">
-            <ul id="icons">
-                <li class="Refresh"><i class="fa fa-exchange" aria-hidden="true"></i></li>
-                <li class="Heart"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                <li class="Size"><i>XL</i></li>
-                <li class="Color"><div class="the-box" id="pinkbox"></div></li>
-                <li class="Cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li></div>
-                <div class="popup2">
-                    <div class="menu-container2">
-                        <ol>
-                            <li class="colorbox" id="topright"></li>
-                            <li class="colorbox" id="bottomright"></li>
-                        </ol>
-                        <ol>
-                            <li class="colorbox2" id=topleft></li>
-                            <li class="colorbox2" id="bottomleft"></li>
-                        </ol>
-                        <div class="triangle-down2">
-                        </div>
-                    </div>
-                    <div class="menubg2"></div>
-                    <div class="trianglebg2"></div>
-                </div>
-
-
-                <div class="popup">
-                    <div class="menu-container">
-                        <ol class="shirtsizes">
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                        </ol>
-                        <ol class="shirtsizes2">
+            <img src="images/yellow-front.png" alt="yellowshirt" class="shirt">
+            <ul class="icons">
+                <li class="nav refresh"><i class="fa fa-exchange" aria-hidden="true"></i></li>
+                <li class="nav heart"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li class="nav size"><i>XL</i>
+                  <div class='mainMenu'>
+                    <div class="sizeMenu">
+                        <div class="shirtSizeContainer">
+                            <ol class="shirtIcons">
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                                <li class="icon-t-shirt"></li>
+                            </ol>
+                            <ol class="shirtSizes">
                                 <li>XL</li>
                                 <li>L</li>
                                 <li>M</li>
                                 <li>S</li>
-                        </ol>
-                    <div class="triangle-down"></div>
+                            </ol>
+                            <div class="sizeMenuTriangleDown"></div>
+                        </div>
+                        <div class="sizeMenuBG"></div>
+                        <div class="sizeMenuTriangleBG"></div>
+                    </div>
                   </div>
-                    <div class="menubg"></div>
-                    <div class="trianglebg"></div>
-                </div>
-          </ul>
-      </div>
+                </li>
 
-<!--Yellow Shirt-->
+                <li class="nav color">
+                    <div class="colorBox yellowbox"></div>
 
-    <div class="footer">
+                    <div class="colorMenu">
+                        <div class="menu-container2">
+                            <ol>
+                                <li class="colorbox topright"></li>
+                                <li class="colorbox bottomright"></li>
+                            </ol>
+                            <ol>
+                                <li class="colorbox2 topleft"></li>
+                                <li class="colorbox2 bottomleft"></li>
+                            </ol>
+                            <div class="triangle-down2">
+                            </div>
+                        </div>
+                        <div class="menubg2"></div>
+                        <div class="trianglebg2"></div>
+                    </div>
+                </li>
+                <li class="nav cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+        </div>
+        </ul>
         <i class="description">Forrest Walk</i>
         <b class="price">$39</b>
-        <div class="container">
-            <div class="spin"><i class="fa fa-undo" aria-hidden="true"></i></div>
-            <img src="yellow-front.png" id="shirt">
-            <ul id="icons">
-                <li class="Refresh"><i class="fa fa-exchange" aria-hidden="true"></i></li>
-                <li class="Heart"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                <li class="Size"><i>XL</i></li>
-                <li class="Color">
-                    <div class="the-box" id="yellowbox"></div>
-                </li>
-                <li class="Cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li></div>
-                <div class="popup2">
-                    <div class="menu-container2">
-                        <ol>
-                            <li class="colorbox" id="topright"></li>
-                            <li class="colorbox" id="bottomright"></li>
-                        </ol>
-                        <ol>
-                            <li class="colorbox2" id=topleft></li>
-                            <li class="colorbox2" id="bottomleft"></li>
-                        </ol>
-                        <div class="triangle-down2">
-                        </div>
-                    </div>
-                    <div class="menubg2"></div>
-                    <div class="trianglebg2"></div>
-                </div>
+    </div> -->
+    </div>
+</body>
 
-
-                <div class="popup">
-                    <div class="menu-container">
-                        <ol class="shirtsizes">
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                            <li class="icon-t-shirt"></li>
-                        </ol>
-                        <ol class="shirtsizes2">
-                                <li>XL</li>
-                                <li>L</li>
-                                <li>M</li>
-                                <li>S</li>
-                        </ol>
-                        <div class="triangle-down">
-                        </div>
-                    </div>
-                    <div class="menubg"></div>
-                    <div class="trianglebg"></div>
-                </div>
-          </ul>
-        </div>
-
-
-        </body>
-
-        </html>
+</html>
