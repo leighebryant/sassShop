@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box; }
+
+ol,
+ul {
+  display: inline-flex;
+  list-style: none; }
+  ol li,
+  ul li {
+    height: 7vh;
+    width: 5.93%;
+    position: relative;
+    left: -1px;
+    text-align: center;
+    z-index: 6; }
+
+.mainContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row; }
+
+.shirtContainer {
+  font-family: sans-serif;
+  width: 29%;
+  display: inline-block;
+  margin: 25px; }
+
+.singleShirt {
+  border: 2px solid #5ca4d6; }
+  .singleShirt .shirt {
+    padding: 15px;
+    width: 100%; }
+
+.sizeMenu {
+  background-color: white;
+  border: 2px solid #5ca4d6; }
+
+.sizeMenuTriangleBG {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #5ca4d6 transparent transparent transparent;
+  z-index: 4;
+  left: 35%;
+  bottom: -11px; }
+
+.sizeMenuTriangleDown {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  left: 37%;
+  bottom: -6px;
+  z-index: 5; }
+
+.shirtIcons {
+  display: inline;
+  position: absolute;
+  z-index: 6;
+  bottom: 0px;
+  left: calc(50% - 17px);
+  font-size: 28px;
+  color: #5ca4d6; }
+
+.shirtSizes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -23px;
+  z-index: 6;
+  font-size: 12px;
+  left: calc(50% - 4px);
+  color: #5ca4d6; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  border-top: 2px solid #5ca4d6; }
+  .icons .cart,
+  .icons .color,
+  .icons .heart,
+  .icons .refresh,
+  .icons .size {
+    border: 1px solid #5ca4d6;
+    bottom: -1px;
+    color: #5ca4d6;
+    height: 50px;
+    padding: 4% 7%;
+    margin: -1px;
+    position: relative;
+    width: 21%; }
+    .icons .cart:hover,
+    .icons .color:hover,
+    .icons .heart:hover,
+    .icons .refresh:hover,
+    .icons .size:hover {
+      color: #fff;
+      background: #5ca4d6; }
+
+.colorBox {
+  width: 27px;
+  height: 27px;
+  background: #5ca4d6;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  top: -4px;
+  left: 0px;
+  position: relative; }
+  .colorBox.yellowbox {
+    background: #deb17e; }
+  .colorBox.pinkbox {
+    background: #d583ac; }
+
+.spin {
+  color: #5ca4d6;
+  float: right;
+  padding: 8px 10px;
+  border: 2px solid #5ca4d6;
+  margin: -2px; }
+  .spin:hover {
+    background: #5ca4d6;
+    color: #fff; }
+
+.description {
+  color: #5ca4d6;
+  font-size: 22px;
+  float: left;
+  padding: 10px; }
+
+.price {
+  color: #5ca4d6;
+  font-size: 22px;
+  float: right;
+  padding: 10px; }
+
+.mainMenu {
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+  left: 0%; }
+
+.colorMenuTriangleDown {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #5ca4d6 transparent transparent transparent;
+  position: absolute;
+  left: 37%;
+  bottom: -12px;
+  z-index: 6; }
+
+.colorMenuTriangleBG {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 4;
+  left: 36%;
+  bottom: 41px; }
+
+ol div.colorMenu {
+  bottom: 47px;
+  left: 203px;
+  opacity: 1;
+  display: inline-block;
+  z-index: 3;
+  transition: .5s ease-in-out; }
+
+.colorMenuContainer {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  z-index: 4;
+  bottom: 100%;
+  left: 0%;
+  border: 2px solid #5ca4d6; }
+
+.pinkbox, .topright {
+  background-color: #d583ac; }
+
+.yellowbox, .bottomleft {
+  background-color: #deb17e; }
+
+.topleft {
+  background-color: #5ca4d6; }
+
+.bottomright {
+  background-color: #8bb992; }
+
+.colorbox {
+  width: 27px;
+  height: 27px;
+  list-style: none;
+  margin: 5px;
+  right: 1px;
+  bottom: -3px;
+  position: relative;
+  float: left; }
+
+.colorbox2 {
+  width: 27px;
+  height: 27px;
+  list-style: none;
+  margin: 5px;
+  right: 40px;
+  bottom: 71px;
+  position: relative;
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
