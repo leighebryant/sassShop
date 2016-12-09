@@ -1,4 +1,5 @@
 @import 'partials/variables';
+@import 'partials/reset';
 
 * {
     box-sizing: border-box;
@@ -163,6 +164,8 @@ ul {
   bottom: 100%;
   left: 0%;
   opacity: 0;
+  transition: opacity .3s ease-in-out;
+
 
 }
 
@@ -195,6 +198,8 @@ ul {
   left: 28%;
   bottom: 36px;
   opacity: 0;
+  transition: opacity .3s ease-in-out;
+
 }
 
 ol div.colorMenu {
@@ -215,6 +220,8 @@ ol div.colorMenu {
     left: 0%;
     border: 2px solid $main-blue;
     opacity: 0;
+    transition: opacity .3s ease-in-out;
+
 
 }
 
