@@ -14,14 +14,9 @@ ul {
     text-align: center;
     z-index: 6; }
 
-.mainContainer {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row; }
-
 .shirtContainer {
   font-family: sans-serif;
-  width: 29%;
+  width: 20%;
   display: inline-block;
   margin: 25px; }
 
@@ -43,7 +38,7 @@ ul {
   border-width: 11px 11px 0 11px;
   border-color: #5ca4d6 transparent transparent transparent;
   z-index: 4;
-  left: 35%;
+  left: 29%;
   bottom: -11px; }
 
 .sizeMenuTriangleDown {
@@ -53,7 +48,7 @@ ul {
   border-width: 10px 10px 0 10px;
   border-color: #fff transparent transparent transparent;
   position: absolute;
-  left: 37%;
+  left: 33%;
   bottom: -6px;
   z-index: 5; }
 
@@ -79,7 +74,7 @@ ul {
 .icons {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 15px;
   border-top: 2px solid #5ca4d6; }
   .icons .cart,
   .icons .color,
@@ -89,8 +84,8 @@ ul {
     border: 1px solid #5ca4d6;
     bottom: -1px;
     color: #5ca4d6;
-    height: 50px;
-    padding: 4% 7%;
+    height: 45px;
+    padding: 5% 7%;
     margin: -1px;
     position: relative;
     width: 21%; }
@@ -108,8 +103,8 @@ ul {
   background: #5ca4d6;
   border: 2px solid #fff;
   margin: 0 auto;
-  top: -4px;
-  left: 0px;
+  top: -5px;
+  left: -5px;
   position: relative; }
   .colorBox.yellowbox {
     background: #deb17e; }
@@ -142,7 +137,11 @@ ul {
   width: 100%;
   position: absolute;
   bottom: 100%;
-  left: 0%; }
+  left: 0%;
+  opacity: 0; }
+
+.size:hover .mainMenu {
+  opacity: 1; }
 
 .colorMenuTriangleDown {
   width: 0;
@@ -151,7 +150,7 @@ ul {
   border-width: 10px 10px 0 10px;
   border-color: #5ca4d6 transparent transparent transparent;
   position: absolute;
-  left: 37%;
+  left: 29%;
   bottom: -12px;
   z-index: 6; }
 
@@ -163,8 +162,9 @@ ul {
   border-width: 11px 11px 0 11px;
   border-color: #fff transparent transparent transparent;
   z-index: 4;
-  left: 36%;
-  bottom: 41px; }
+  left: 28%;
+  bottom: 36px;
+  opacity: 0; }
 
 ol div.colorMenu {
   bottom: 47px;
@@ -175,14 +175,19 @@ ol div.colorMenu {
   transition: .5s ease-in-out; }
 
 .colorMenuContainer {
-  height: 80px;
   width: 100%;
   background-color: white;
   position: absolute;
   z-index: 4;
   bottom: 100%;
   left: 0%;
-  border: 2px solid #5ca4d6; }
+  border: 2px solid #5ca4d6;
+  opacity: 0; }
+
+.color:hover .colorMenuContainer {
+  opacity: 1; }
+.color:hover .colorMenuTriangleBG {
+  opacity: 1; }
 
 .pinkbox, .topright {
   background-color: #d583ac; }
@@ -197,23 +202,42 @@ ol div.colorMenu {
   background-color: #8bb992; }
 
 .colorbox {
-  width: 27px;
-  height: 27px;
-  list-style: none;
-  margin: 5px;
-  right: 1px;
-  bottom: -3px;
-  position: relative;
-  float: left; }
+  width: 20px;
+  height: 20px;
+  margin: 2px; }
 
 .colorbox2 {
-  width: 27px;
-  height: 27px;
-  list-style: none;
-  margin: 5px;
-  right: 40px;
-  bottom: 71px;
-  position: relative;
-  float: right; }
+  width: 20px;
+  height: 20px;
+  margin: 2px; }
+
+@media only screen and (max-width: 1060px) {
+  .shirtContainer {
+    width: 27%; } }
+@media only screen and (max-width: 832px) {
+  .shirtContainer {
+    width: 32%;
+    margin: 40px; } }
+@media only screen and (max-width: 700px) {
+  .shirtContainer {
+    width: 37%; } }
+@media only screen and (max-width: 630px) {
+  .shirtContainer {
+    width: 40%; } }
+@media only screen and (max-width: 600px) {
+  .shirtContainer {
+    width: 45%; } }
+@media only screen and (max-width: 550px) {
+  .shirtContainer {
+    width: 50%; } }
+@media only screen and (max-width: 500px) {
+  .shirtContainer {
+    width: 55%; } }
+@media only screen and (max-width: 450px) {
+  .shirtContainer {
+    width: 60%; } }
+@media only screen and (max-width: 400px) {
+  .shirtContainer {
+    width: 65%; } }
 
 /*# sourceMappingURL=main.css.map */
